@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+.header {
+    width: 100%;
+    height: 100vh;
+    background-color: darksalmon;
+    
+    display: flex;/* Создаем флекс правила для блока*/
+    flex-direction: column; /* Располагаем элементы блока в колонку, основная ось - Y */
+
+    /* Выравниваем по центру относительно осей*/
+    justify-content: center; /* Выравнивание по основной оси - вертикаль Y*/
+    align-items: center;    /* Выравнивание по поперечной оси - горизонталь X*/
+}
