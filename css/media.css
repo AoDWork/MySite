@@ -74,4 +74,53 @@
     .card p {
         font-size: 14px;
     }
+
+    .footer-copyright-name {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .footer-copyright p {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .footer-icons p {
+        font-size: 14px;
+    }
+
+    .footer-contacts p {
+        font-size: 14px;
+        margin: 0;
+        margin-top: 15px;
+    }
+
+    .footer-button {
+        padding: 0 10px;
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .project {
+        padding: 40px 0 60px;
+    }
+
+    .project-title {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .project-image {
+        margin-bottom: 20px;
+    }
+
+    .project-description {
+        margin-bottom: 50px;
+    }
+
+    .project-btn-back {
+        padding: 0 10px ;
+        width: 100%;
+        max-width: 320px;
+    }
 }
