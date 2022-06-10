@@ -114,6 +114,7 @@ img {
     box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
     flex-grow: 1;
     transition: transform 0.2s ease-in;
+    border-radius: 15px;
 }
 
 .card:hover {
@@ -130,6 +131,7 @@ img {
 
 .card-link:hover {
     color: #0c8040;
+    font-weight: 700;
 }
 
 .card:last-child, .card:nth-last-child(2) {
@@ -138,6 +140,7 @@ img {
 
 .card-img {
     margin-bottom: 20px;
+    border-radius: 15px;
 }
 
 .card-title {
@@ -213,9 +216,19 @@ img {
 }
 
 .footer-icons-row > * + * {
-    
     margin-left: 37px;
 }
+
+.footer-icons-row a:hover{
+    animation: jump 0.4s ease-in;
+}
+
+@keyframes jump{
+    0% { transform: translateY(0%) }
+    50% { transform: translateY(-20%);}
+    100% { transform: translateY(0%);}
+}
+
 
 /* .footer-contacts {
 
@@ -238,12 +251,13 @@ img {
     color: #FFFFFF;
     text-decoration: none;
 
-    transition: all 0.2s ease-in;
+    transition: all 0.3s ease-in;
 }
 
 .footer-button:hover {
     background-color: white;
     color: #0c8040;
+    transform: scale(1.05);
 }
 
 .footer-contacts p {
@@ -254,7 +268,8 @@ img {
 }
 
 
-/* Project */
+
+/* Project (multipage)*/
 .project {
     text-align: center;
     padding: 80px 0 120px 0;
@@ -304,10 +319,11 @@ img {
     color: #FFFFFF;
     text-decoration: none;
 
-    transition: all 0.2s ease-in;
+    transition: all 0.3s ease-in;
 }
 
 .project-btn-back:hover {
+    transform: scale(1.1);
     background-color: white;
     color: #0c8040;
 }
