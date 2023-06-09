@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,119 +12,105 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-<header class="header" id="header">
-    <h1 class="header-title">Vladimir Natsvlishvili</h1>
-    <p class="header-subtitle">Начинающий веб-разработчик,<br>программист JS</p>
-    <a href="#portfolio" class="header-arrow">
-        <img src="./img/header/chevron-down.svg" alt="Arrow">
-    </a>
-</header>
+    <header class="header" id="header">
+        <h1 class="header-title">Vladimir Natsvlishvili</h1>
+        <p class="header-subtitle">Frontend react developer</p>
+        <a href="#portfolio" class="header-arrow">
+            <img src="./img/header/chevron-down.svg" alt="Arrow">
+        </a>
+    </header>
 
-<main>
-    <section class="portfolio" id="portfolio">
+    <main>
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <h2 class="portfolio-header">Portfolio</h2>
+                <!-- portfolio-card-wrapper -->
+                <div class="portfolio-card-wrapper">
+                    <!-- Card -->
+                    <div class="card">
+                        <a href="#" class="card-link">
+                            <img class="card-img" src="./img/portfolio/personal.jpg" alt="Personal site">
+                            <h3 class="card-title">Personal site</h3>
+                            <p>Responsive landing page layout</p>
+                        </a>
+                    </div>
+                    <!-- Card -->
+                    <div class="card">
+                        <a href="https://aodwork.github.io/El.Dream/" class="card-link" target="_blank">
+                            <img class="card-img" src="./img/portfolio/multipage.jpg" alt="Multipage sites">
+                            <h3 class="card-title">Multipage sites</h3>
+                            <p>Website for sales, etc...</p>
+                        </a>
+                    </div>
+                    <!-- Card -->
+                    <div class="card">
+                        <a href="https://aodwork.github.io/time_counter/" class="card-link" target="_blank">
+                            <img class="card-img" src="./img/portfolio/business.jpg" alt="Business projects">
+                            <h3 class="card-title">Business projects</h3>
+                            <p>Applications for work tasks</p>
+                        </a>
+                    </div>
+                    <!-- Card -->
+                    <div class="card">
+                        <a href="https://aodwork.github.io/React__Samurai-1/" class="card-link" target="_blank">
+                            <img class="card-img" src="./img/portfolio/social.jpg" alt="SPA" >
+                            <h3 class="card-title">SPA</h3>
+                            <p>Single page applications on react</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
         <div class="container">
-            <h2 class="portfolio-header">Портфолио</h2>
-
-            <!-- portfolio-card-wrapper -->
-            <div class="portfolio-card-wrapper">
-
-                <!-- Card -->
-                <div class="card">
-                    <a href="#" class="card-link">
-                        <img class="card-img" src="./img/portfolio/private.jpg" alt="Личный сайт">
-                        <h3 class="card-title">Личный сайт</h3>
-                        <p>Верстка личного сайта.</p>
-                    </a>
+            <div class="footer-row">
+                <!-- footer-copyright -->
+                <div class="footer-copyright footer-column">
+                    <div class="footer-copyright-name">Vladimir Natsvlishvili</div>
+                    <p>Creation of websites and applications</p>
                 </div>
-                <!-- // Card -->
-                <!-- Card -->
-                <div class="card">
-                    <a href="#" class="card-link">
-                        <img class="card-img" src="./img/portfolio/landing.jpg" alt="Адаптивный лендинг">
-                        <h3 class="card-title">Адаптивный лендинг</h3>
-                        <p>Верстка адаптивного лендинга.</p>
-                    </a>
+
+                <!-- footer-icons -->
+                <div class="footer-icons footer-column">
+                    <p>My social profiles:</p>
+                    <div class="footer-icons-row">
+                        <a href="#">
+                            <img src="./img/social/instagram.svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./img/social/facebook.svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./img/social/vk.svg" alt="">
+                        </a>
+                        <a href="https://www.linkedin.com/in/volodymyr-natsvlishvili-54087520b/">
+                            <img src="./img/social/linkedin.svg" alt="">
+                        </a>
+                        <a href="https://github.com/AoDWork">
+                            <img src="./img/social/github.svg" alt="">
+                        </a>
+                    </div>
                 </div>
-                <!-- // Card -->
-                <!-- Card -->
-                <div class="card">
-                    <a href="multipage.html" class="card-link">
-                        <img class="card-img" src="./img/portfolio/multipage.jpg" alt="Многостраничный сайт">
-                        <h3 class="card-title">Многостраничный сайт</h3>
-                        <p>Верстка многостраничного сайта.</p>
+
+                <div class="footer-contacts footer-column">
+                    <a href="https://t.me/AoDWork" class="footer-button">
+                        Contact in telegram
                     </a>
+                    <p>Write to me to order or find out the<br/> cost of layout of your project.</p>
                 </div>
-                <!-- // Card -->
-                <!-- Card -->
-                <div class="card">
-                    <a href="#" class="card-link">
-                        <img class="card-img" src="./img/portfolio/market.jpg" alt="Интернет магазин">
-                        <h3 class="card-title">Интернет магазин</h3>
-                        <p>Верстка интернет магазина.</p>
-                    </a>
-                </div>
-                <!-- // Card -->
-
-            </div>
-            <!-- // portfolio-card-wrapper -->
-
-        </div>
-    </section>
-</main>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer-row">
-            <!-- footer-copyright -->
-            <div class="footer-copyright footer-column">
-                <div class="footer-copyright-name">Vladimir Natsvlishvili</div>
-                <p>Разработка и HTML верстка сайтов.</p>
-            </div>
-            <!-- // footer-copyright -->
-
-            <!-- footer-icons -->
-            <div class="footer-icons footer-column">
-                <p>Мои профили в социальных сетях:</p>
-                <div class="footer-icons-row">
-                    <a href="#">
-                        <img src="./img/social/instagram.svg" alt="">
-                    </a>
-                    <a href="#">
-                        <img src="./img/social/facebook.svg" alt="">
-                    </a>
-                    <a href="#">
-                        <img src="./img/social/vk.svg" alt="">
-                    </a>
-                    <a href="https://ua.linkedin.com/in/vladimir-rybkin-54087520b?trk=people-guest_people_search-card">
-                        <img src="./img/social/linkedin.svg" alt="">
-                    </a>
-                    <a href="https://github.com/AoDWork">
-                        <img src="./img/social/github.svg" alt="">
-                    </a>
-                    
-                </div>
-            </div>
-            <!-- // footer-icons -->
-
-            <div class="footer-contacts footer-column">
-                <a href="https://t.me/AoDWork" class="footer-button">
-                    Связаться в телеграме
-                </a>
-                <p>Напишите мне, чтобы заказать или узнать стоимость верстки вашего проекта.</p>
             </div>
         </div>
-    </div>
-</footer>
-
-<!-- Библиотеки и плагины -->
-<script src="./libs/jquery/jquery-3.6.0.min.js"></script>
-<script src="./libs/vide/jquery.vide.min.js"></script>
-
-<!-- Собственные скрипты и библиотеки -->
-<script src="./js/main.js"></script>
-
-
+    </footer>
+    <!-- Библиотеки и плагины -->
+    <script src="./libs/jquery/jquery-3.6.0.min.js"></script>
+    <script src="./libs/vide/jquery.vide.min.js"></script>
+    <!-- Собственные скрипты и библиотеки -->
+    <script src="./js/main.js"></script>
 </body>
+
 </html>
